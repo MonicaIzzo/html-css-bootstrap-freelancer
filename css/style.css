@@ -1,0 +1,172 @@
+/********************************************
+    GENERAL STYLES
+********************************************/
+
+/* Custom PROPERTIES */
+:root {
+    --primary-color: #1abc9c;
+    --header-color: #2c3e50;
+    --hero-color: #1abc9c;
+    --portfolio1-color: #ba4b63;
+    --portfolio2-color: #1ea4b6;
+    --portfolio3-color: #140f0f;
+    --portfolio4-color: #1c83c1;
+    --portfolio5-color: #0e38b5;
+    --portfolio6-color: #ccb2a3;
+    --about-color: #1abc9c;
+    --footer-color: #3a546d;
+    --copyright-color: #2c3e50;
+}
+
+/* Generics */
+
+/********************************************
+    UTILITIES
+********************************************/
+
+/* Layout */
+
+.debug {
+    border: 2px dotted red;
+}
+
+.h-min-remove {
+    height: 100px;
+}
+
+/* header */
+.header {
+    background-color: var(--header-color);
+    color: white;
+}
+
+.header .row {
+    height: 100%;
+}
+
+/* hero */
+.hero {
+    background-color: var(--hero-color);
+    color: white;
+}
+
+.hero .row {
+    height: 100%;
+}
+
+/* portfolio */
+.portfolio-1 {
+    background-color: var(--portfolio1-color);
+    color: white;
+}
+.portfolio-2 {
+    background-color: var(--portfolio2-color);
+    color: white;
+}
+.portfolio-3 {
+    background-color: var(--portfolio3-color);
+    color: white;
+}
+.portfolio-4 {
+    background-color: var(--portfolio4-color);
+    color: white;
+}
+.portfolio-5 {
+    background-color: var(--portfolio5-color);
+    color: white;
+}
+.portfolio-6 { 
+    background-color: var(--portfolio6-color);
+    color: white;
+}
+
+/* About */
+.about {
+    background-color: var(--about-color);
+}
+
+/* Contact */
+
+
+/* Footer */
+.footer {
+    background-color: var(--footer-color);
+    color: white;
+}
+
+.footer .row {
+    height: 100%;
+}
+.copyright {
+    background-color: var(--copyright-color);
+    color: white;
+}
+
+.copyright .row {
+    height: 100%;
+}
+
+
+
+
+
+
+
+/* Text */
+
+/* Border */
+
+/* UI */
+
+/* Header */
+
+/* Main */
+
+/* Footer */
+
+
+
+
+
+/********************************************
+    RESPONSIVE
+********************************************/
+/* Breakpoints */
+/* Piccolissimo Nessuno <576px */
+/* Piccolo sm ≥576px */
+/* medio md ≥768px */
+/* Grande lg ≥992px */
+/* Extra grande xl ≥1200px */
+/* Extra extra large xxl ≥1400 */
+
+
+/* Piccolo sm ≥576px */
+/* Extra grande xl ≥1200px */
+/* Extra extra large xxl ≥1400 */
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    
+}
+
+
+
+@media screen and (max-width: 992px) {
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 576px) {
+    
+}
+
+@media screen and (max-width: 576px) {
+    
+}
