@@ -44,6 +44,18 @@
     height: 100%;
 }
 
+.header .nav ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.header .nav ul a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+
 /* hero */
 .hero {
     background-color: var(--hero-color);
@@ -141,32 +153,5 @@
 
 
 /* Piccolo sm ≥576px */
-/* Extra grande xl ≥1200px */
+/* Grande lg ≥992px */
 /* Extra extra large xxl ≥1400 */
-
-
-
-
-
-@media screen and (max-width: 1200px) {
-    
-}
-
-
-
-@media screen and (max-width: 992px) {
-    
-}
-
-
-@media screen and (max-width: 768px) {
-    
-}
-
-@media screen and (max-width: 576px) {
-    
-}
-
-@media screen and (max-width: 576px) {
-    
-}

@@ -29,7 +29,14 @@ integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG
     <div class="header container-fluid debug h-min-remove">
         <div class="row row-cols-2 align-items-center">
             <div class="col debug">Logo</div>
-            <div class="col debug text-end">Hamburger Menu</div>
+            <div class="hamburger col d-lg-none debug text-end">Hamburger Menu</div>
+            <div class="nav col d-none d-md-block debug text-end">
+                <ul class="d-flex align-items-center justify-content-end">
+                    <li class=""><a href="#">link 01</a></li>
+                    <li class=""><a href="#">link 02</a></li>
+                    <li class=""><a href="#">link 03</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 <!-- hero -->
@@ -41,21 +48,23 @@ integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG
 <!-- portfolio -->
     <div class="container text-center mt-3 mb-3 debug">
         <div><h2>PORTFOLIO</h2></div>
-        <div class="row row-cols-6 d-sm-flex flex-column align-items-center">
-            <div class="portfolio-1 col mt-3 mb-3 w-100 debug">1</div>
-            <div class="portfolio-2 col mt-3 mb-3 w-100 debug">2</div>
-            <div class="portfolio-3 col mt-3 mb-3 w-100 debug">3</div>
-            <div class="portfolio-4 col mt-3 mb-3 w-100 debug">4</div>
-            <div class="portfolio-5 col mt-3 mb-3 w-100 debug">5</div>
-            <div class="portfolio-6 col mt-3 mb-3 w-100 debug">6</div>
+        <div class="row d-flex flex-column flex-lg-row align-items-center">
+            <div class="portfolio-1 col col-lg-6 mt-3 mb-3   debug">1</div>
+            <div class="portfolio-2 col col-lg-6 mt-3 mb-3 debug">2</div>
+            <div class="portfolio-3 col col-lg-6 mt-3 mb-3 debug">3</div>
+            <div class="portfolio-4 col col-lg-6 mt-3 mb-3 debug">4</div>
+            <div class="portfolio-5 col col-lg-6 mt-3 mb-3 debug">5</div>
+            <div class="portfolio-6 col col-lg-6 mt-3 mb-3 debug">6</div>
         </div>
     </div>
 <!-- about -->
     <div class="about container-fluid text-center debug h-min-remove">
         <div><h2>ABOUT</h2></div>
-        <div class="row row-cols-1 align-items-center">
-            <div class="col debug">testo</div>
+        <div class="row d-flex flex-column flex-lg-row align-items-center">
+            <div class="col col-lg-6 debug">testo 01</div>
+            <div class="col col-lg-6 debug">testo 02</div>
         </div>
+        <div>download</div>
     </div>
 <!-- contacts -->
     <div class="container text-center mt-3 mb-3 debug h-min-remove">
@@ -66,8 +75,10 @@ integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG
     </div>
 <!-- footer -->
     <div class="footer container-fluid text-center debug h-min-remove">
-        <div class="row row-cols-1 align-items-center">
-            <div class="col debug">LOCATION</div>
+        <div class="row d-flex flex-column flex-lg-row align-items-center">
+            <div class="col col-lg-4 debug">LOCATION 01</div>
+            <div class="col col-lg-4 debug">LOCATION 02</div>
+            <div class="col col-lg-4 debug">LOCATION 03</div>
         </div>
     </div>
     <div class="copyright container-fluid text-center debug h-min-remove">
