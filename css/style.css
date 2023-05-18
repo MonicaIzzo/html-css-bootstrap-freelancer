@@ -30,10 +30,6 @@ a {
 a:hover {
     color: lightgray;
 }
-
-img {
-   display: block;
-}
 h1 {
     font-weight: 600;
     font-size: 40px;
@@ -42,15 +38,12 @@ h2 {
     font-size: 32px;
     font-weight: 600;
 }
-
 h3 {
     font-size: 22px;
 }
-
 .fa-star {
     font-size: 36px;
 }
-
 hr {
     border: 2px solid white;
     opacity: 1;
@@ -70,11 +63,7 @@ hr {
     height: 100px;
 }
 
-
-
 /* header */
-
-
 .navbar-brand {
     font-weight: 900;
     font-size: 1.2rem;
@@ -82,7 +71,6 @@ hr {
 
 .nav-link {
     color: white;
-
 }
 
 .navbar-collapse {
@@ -101,7 +89,6 @@ hr {
 .hero-img {
     width: 70%;
     margin: 0 auto;
-
 }
 
 /* portfolio */
@@ -113,34 +100,35 @@ hr {
     border-color: #2c3e50;
 }
 
-.portfolio .row .col {
-    padding: 10px;
-}
-
 .portfolio-1 {
     background-color: var(--portfolio1-color);
+    overflow: hidden;
 }
 .portfolio-2 {
     background-color: var(--portfolio2-color);
+    overflow: hidden;
 }
 .portfolio-3 {
     background-color: var(--portfolio3-color);
+    overflow: hidden;
 }
 .portfolio-4 {
     background-color: var(--portfolio4-color);
+    overflow: hidden;
 }
 .portfolio-5 {
     background-color: var(--portfolio5-color);
+    overflow: hidden;
 }
 .portfolio-6 { 
     background-color: var(--portfolio6-color);
+    overflow: hidden;
 }
 
 /* About */
 .about {
     background-color: var(--about-color);
 }
-
 .btn {
     color: white;
     border: 2px solid white;
@@ -154,7 +142,6 @@ hr {
 .contacts {
     color: var(--header-color);
 }
-
 .contacts .row .col>hr {
     border-color: #2c3e50;
 }
@@ -166,7 +153,6 @@ hr {
     border-bottom: 1px solid lightgrey;
 }
 
-
 ::placeholder {
     color: #140f0f;
 } 
@@ -174,13 +160,13 @@ hr {
 .form-control:focus {
     box-shadow: none;
     border-color: var(--about-color);
-    
 }
 
 .my-btn {
     color: white;
     background-color: var(--about-color);
     border: 2px solid #1abc9c;
+    width: 30%;
 }
 
 .my-btn:hover {
@@ -215,7 +201,6 @@ hr {
     border: 3px solid lightgray;
 }
 
-
 .footer .about-a a {
     text-decoration: none;
     color: #1abc9c;
@@ -224,51 +209,9 @@ hr {
 .footer p {
     margin-bottom: 0.6rem;
 }
-
-
-
 .copyright {
     background-color: var(--copyright-color);
 }
-
 .copyright .row {
     height: 100%;
 }
-
-
-
-
-
-
-
-/* Text */
-
-/* Border */
-
-/* UI */
-
-/* Header */
-
-/* Main */
-
-/* Footer */
-
-
-
-
-
-/********************************************
-    RESPONSIVE
-********************************************/
-/* Breakpoints */
-/* Piccolissimo Nessuno <576px */
-/* Piccolo sm ≥576px */
-/* medio md ≥768px */
-/* Grande lg ≥992px */
-/* Extra grande xl ≥1200px */
-/* Extra extra large xxl ≥1400 */
-
-
-/* Piccolo sm ≥576px */
-/* Grande lg ≥992px */
-/* Extra large xl ≥1200 */
