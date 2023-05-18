@@ -19,6 +19,42 @@
 }
 
 /* Generics */
+body {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+img {
+   display: block;
+}
+h1 {
+    font-weight: 600;
+    font-size: 40px;
+}
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+.fa-star {
+    font-size: 36px;
+}
+
+hr {
+    border: 2px solid white;
+    opacity: 1;
+}
 
 /********************************************
     UTILITIES
@@ -35,61 +71,60 @@
 }
 
 /* header */
-.header {
-    background-color: var(--header-color);
+
+
+.navbar-brand {
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.nav-link {
     color: white;
-}
 
-.header .row {
-    height: 100%;
 }
-
-.header .nav ul {
-    list-style: none;
-    margin-bottom: 0;
-    padding-left: 0;
-}
-.header .nav ul a {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-}
-
-
 /* hero */
 .hero {
     background-color: var(--hero-color);
-    color: white;
 }
 
 .hero .row {
     height: 100%;
 }
 
+.hero-img {
+    width: 70%;
+    margin: 0 auto;
+
+}
+
 /* portfolio */
+.portfolio {
+    color: #2c3e50;
+}
+
+.portfolio .row .col > hr {
+    border-color: #2c3e50;
+}
+
+
+
 .portfolio-1 {
     background-color: var(--portfolio1-color);
-    color: white;
 }
 .portfolio-2 {
     background-color: var(--portfolio2-color);
-    color: white;
 }
 .portfolio-3 {
     background-color: var(--portfolio3-color);
-    color: white;
 }
 .portfolio-4 {
     background-color: var(--portfolio4-color);
-    color: white;
 }
 .portfolio-5 {
     background-color: var(--portfolio5-color);
-    color: white;
 }
 .portfolio-6 { 
     background-color: var(--portfolio6-color);
-    color: white;
 }
 
 /* About */
@@ -97,21 +132,64 @@
     background-color: var(--about-color);
 }
 
+.btn {
+    color: white;
+    border: 2px solid white;
+}
+.btn:hover {
+    color: white;
+    border: 2px solid white;
+    background-color: lightgrey;
+}
 /* Contact */
+.contacts {
+    color: var(--header-color);
+}
 
+.contacts .row .col>hr {
+    border-color: #2c3e50;
+}
 
 /* Footer */
 .footer {
     background-color: var(--footer-color);
-    color: white;
 }
 
 .footer .row {
     height: 100%;
 }
+
+.footer .fa-brands {
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 50px;
+    line-height: 34px;
+    margin: 0 5px;
+}
+
+.footer .fa-brands:hover {
+    border: 3px solid lightgray;
+}
+
+
+.footer .about-a a {
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+.footer p {
+    margin-bottom: 0.6rem;
+}
+
+
+
 .copyright {
     background-color: var(--copyright-color);
-    color: white;
 }
 
 .copyright .row {
@@ -154,4 +232,4 @@
 
 /* Piccolo sm ≥576px */
 /* Grande lg ≥992px */
-/* Extra extra large xxl ≥1400 */
+/* Extra large xl ≥1200 */
